@@ -1,58 +1,53 @@
-[23:49:20] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[23:49:20] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[23:49:20] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[23:49:20] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[23:49:20] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[23:49:20] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[23:49:20] [main/INFO]: Reloading ResourceManager: Default
-[23:49:21] [Worker-Main-11/INFO]: Loaded 7 recipes
-[23:49:21] [Worker-Main-11/INFO]: Loaded 1137 advancements
-[23:49:24] [Server thread/INFO]: Starting minecraft server version 1.17.1
-[23:49:24] [Server thread/INFO]: Loading properties
-[23:49:24] [Server thread/INFO]: Default game type: SURVIVAL
-[23:49:24] [Server thread/INFO]: Generating keypair
-[23:49:24] [Server console handler/ERROR]: Exception handling console input
-java.io.IOException: The handle is invalid
+[00:09:18] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[00:09:18] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:09:18] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:09:18] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[00:09:18] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[00:09:18] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:09:18] [main/INFO]: Reloading ResourceManager: Default
+[00:09:18] [Worker-Main-14/INFO]: Loaded 7 recipes
+[00:09:19] [Worker-Main-14/INFO]: Loaded 1137 advancements
+[00:09:20] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[00:09:20] [Server thread/INFO]: Loading properties
+[00:09:20] [Server thread/INFO]: Default game type: SURVIVAL
+[00:09:20] [Server thread/INFO]: Generating keypair
+[00:09:20] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: ?????
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
-	at java.io.FileInputStream.read(FileInputStream.java:271) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
 	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
 	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
-	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297) ~[?:?]
-	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
 	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
-	at java.io.InputStreamReader.read(InputStreamReader.java:178) ~[?:?]
-	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
 	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
 	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
 	at aas$1.run(SourceFile:101) [server.jar:?]
-[23:49:24] [Server thread/INFO]: Starting Minecraft server on *:25565
-[23:49:24] [Server thread/INFO]: Using default channel type
-[23:49:25] [Server thread/INFO]: Preparing level "world"
-[23:49:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[23:49:26] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[23:49:26] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[23:49:26] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[23:49:27] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[23:49:27] [Worker-Main-14/INFO]: Preparing spawn area: 2%
-[23:49:28] [Worker-Main-14/INFO]: Preparing spawn area: 8%
-[23:49:28] [Worker-Main-9/INFO]: Preparing spawn area: 11%
-[23:49:29] [Worker-Main-9/INFO]: Preparing spawn area: 27%
-[23:49:29] [Worker-Main-12/INFO]: Preparing spawn area: 49%
-[23:49:30] [Worker-Main-14/INFO]: Preparing spawn area: 81%
-[23:49:31] [Server thread/INFO]: Time elapsed: 5839 ms
-[23:49:31] [Server thread/INFO]: Done (5.987s)! For help, type "help"
-[23:50:12] [User Authenticator #1/INFO]: UUID of player RainbowPuppeteer is 099c0e44-37bf-43d4-9881-9ba096457aed
-[23:50:13] [Server thread/INFO]: RainbowPuppeteer[/25.102.43.189:55452] logged in with entity id 433 at (-4893.0623960144685, 68.0, -1113.941228839324)
-[23:50:13] [Server thread/INFO]: RainbowPuppeteer joined the game
-[23:50:21] [Server thread/INFO]: RainbowPuppeteer lost connection: Disconnected
-[23:50:21] [Server thread/INFO]: RainbowPuppeteer left the game
-[23:50:24] [Server thread/INFO]: Stopping server
-[23:50:24] [Server thread/INFO]: Saving players
-[23:50:24] [Server thread/INFO]: Saving worlds
-[23:50:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[23:50:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[23:50:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[23:50:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:50:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:50:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:50:26] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:09:20] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:09:20] [Server thread/INFO]: Using default channel type
+[00:09:21] [Server thread/INFO]: Preparing level "world"
+[00:09:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:09:21] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[00:09:21] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[00:09:22] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[00:09:22] [Worker-Main-11/INFO]: Preparing spawn area: 7%
+[00:09:23] [Worker-Main-10/INFO]: Preparing spawn area: 34%
+[00:09:24] [Server thread/INFO]: Time elapsed: 2780 ms
+[00:09:24] [Server thread/INFO]: Done (2.887s)! For help, type "help"
+[00:10:30] [User Authenticator #1/INFO]: UUID of player viker0531 is ecd3ce28-4d1b-4eaf-8ec8-8705be255e54
+[00:10:30] [Server thread/INFO]: viker0531[/25.7.3.51:63418] logged in with entity id 426 at (747.6252780647982, 61.0, 1795.300000011921)
+[00:10:30] [Server thread/INFO]: viker0531 joined the game
+[00:10:37] [Server thread/INFO]: viker0531 lost connection: Disconnected
+[00:10:37] [Server thread/INFO]: viker0531 left the game
+[00:10:42] [Server thread/INFO]: Stopping server
+[00:10:42] [Server thread/INFO]: Saving players
+[00:10:42] [Server thread/INFO]: Saving worlds
+[00:10:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[00:10:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[00:10:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[00:10:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:10:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:10:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:10:43] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
